@@ -9,15 +9,15 @@ buttons.forEach((btn)=>{
       }
       else if(e.target.id === "green"){
         body.style.background = e.target.id;
-          heading.style.background = "orange"
+          heading.style.background = "red"
       }
       else if(e.target.id === "blue"){
         body.style.background = e.target.id;
-          heading.style.background = "orange"
+          heading.style.background = "darkblue"
       }
       else if(e.target.id === "yellow"){
         body.style.background = e.target.id;
-          heading.style.background = "orange"
+          heading.style.background = "pink"
       }
     })
 })
