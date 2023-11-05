@@ -1,0 +1,33 @@
+
+
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    
+}
+.allDiv{
+    display: flex;
+}
+.button{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+#grey{
+    background: grey;
+}
+#green{
+    background: green;
+}
+#blue{
+    background: blue;
+}
+#yellow{
+    background: yellow;
+}
